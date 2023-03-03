@@ -1,0 +1,181 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* NAVBAR */
+.navbar{
+    height: 100px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.title{
+    font-weight: bolder;
+    letter-spacing: 5px;
+    color: #0E296A;
+    font-size: 17px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.nav-link{
+    font-size: 16px;
+    color: #0E296A;
+}
+.nav-link:hover{
+    color: white;
+    background-color: #0E296A;
+
+}
+.btn{
+    background-color: #0E296A;
+    border: none;
+    color: white;
+    width: 50px;
+}
+.btn:hover{
+    color: white;
+}
+
+/* HEADER */
+
+.header{
+    margin-top: 80px;
+    height: 100vh;
+    background-image: url('http://127.0.0.1:8000/img/BG-Header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.box-header{
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 22rem;
+    opacity: 0.80;
+}
+.header-text{
+    word-spacing: 10px;
+    line-height: 4rem;
+    color: black;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 45px;
+}
+.header-text-2{
+    color: black;
+    margin-left: 20px;
+}
+.header-btn{
+    background-color: #0E296A;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* WHY US */
+
+.why-us-card{
+    border-right: 1px rgba(0, 0, 0, 0.151) solid;
+}
+.why-us-img{
+    width: 60px;
+}
+
+/* DIVISI */
+
+.divisi{
+    border-top: 1px rgba(0, 0, 0, 0.151) solid;
+    border-bottom: 1px rgba(0, 0, 0, 0.151) solid;
+    padding: 0 100px;
+}
+.title-divisi{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 600;
+    text-decoration: underline;
+    word-spacing: 5px;
+    line-height: 40px;
+    padding-top: 100px;
+}
+.divisi-img{
+    width: 370px;
+}
+.title-divisi-2{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 600;
+    text-decoration: underline;
+    word-spacing: 5px;
+    line-height: 40px;
+    padding-top: 17rem;
+}
+
+/* REVIEW */
+
+.review{
+    border-bottom: 1px rgba(0, 0, 0, 0.151) solid;
+}
+.review-title{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 600;
+    text-align: center; 
+    margin-top: 60px;
+}
+
+/* KLIEN */
+
+.klien-title{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 600;
+    text-align: center; 
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.klien-img{
+    width: 240px;
+}
+.klien-box-2{
+    margin-top: -50px;
+}
+
+/* FOOTER */
+.footer{
+    border-top: 1px rgba(0, 0, 0, 0.151) solid;
+}
+.footer-img{
+    width: 25px;
+}
+.footer-title{
+    color: rgba(0, 0, 0, 0.486);
+}
+
+/*  */
+/*  */
+/* HOMEPAGE */
+/*  */
+/*  */
+
+/* HEADER */
+
+.header-pusat{
+    margin-top: 80px;
+    height: 30rem;
+    background-image: url('http://127.0.0.1:8000/img/header-pusat.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.box-header-pusat{
+    width: 50rem;
+    background-color: white;
+    margin-left: 30rem;
+    opacity: 0.90;
+}
+.header-text-pusat{
+    word-spacing: 10px;
+    line-height: 4rem;
+    color: #0E296A;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 40px;
+}
