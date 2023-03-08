@@ -41,6 +41,7 @@
 .header{
     margin-top: 80px;
     height: 100vh;
+    padding-top: 100px;
     background-image: url('http://127.0.0.1:8000/img/BG-Header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,6 +83,78 @@
 .why-us-img{
     width: 60px;
 }
+.why-us-text{
+    font-size: 15px;
+}
+
+/* ABOUT-US */
+
+.about-us{
+    border-top: 1px rgba(0, 0, 0, 0.151) solid;
+    border-bottom: 1px rgba(0, 0, 0, 0.151) solid;
+    padding: 40px 80px;
+}
+.list-about{
+    list-style: decimal;
+    margin-left: 30px;
+    line-height: 25px;
+}
+.about-title{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 600;
+    word-spacing: 5px;
+}
+
+/* VISI MISI */
+
+.visi-misi{
+    border-bottom: 1px rgba(0, 0, 0, 0.151) solid;
+}
+.title-2{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 600;
+    text-align: center; 
+    margin-top: 50px;
+}
+.visi-content{
+    justify-content: center;
+}
+.visi-content-1{
+    width: 350px;
+    border-left: 1px rgba(0, 0, 0, 0.151) solid;
+}
+.visi-content-2{
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* TIM */
+
+.tim{
+    justify-content: center;
+    gap: 20px;
+}
+.tim-img{
+    border: 1px rgba(0, 0, 0, 0.151) solid;
+    border-radius: 300px;
+    width: 220px;
+}
+.tim-text{
+    color: #0E296A;
+    font-weight: 600;
+}
+.ceo{
+    width: 250px;
+}
+.hrd{
+    width: 250px;
+}
+.pembimbing-1{
+    width: 250px;
+}
+.pembimbing-2{
+    width: 250px;
+}
 
 /* DIVISI */
 
@@ -89,6 +162,14 @@
     border-top: 1px rgba(0, 0, 0, 0.151) solid;
     border-bottom: 1px rgba(0, 0, 0, 0.151) solid;
     padding: 0 100px;
+    justify-content: center;
+    gap: 50px;
+}
+.divisi-1{
+    width: 300px;
+}
+.divisi-2{
+    width: 370px;
 }
 .title-divisi{
     font-family: 'Merriweather Sans', sans-serif;
@@ -114,12 +195,40 @@
 
 .review{
     border-bottom: 1px rgba(0, 0, 0, 0.151) solid;
+    justify-content: center;
+}
+.review-1{
+    width: 400px;
+    border-right: 1px rgba(0, 0, 0, 0.151) solid;
+    padding: 30px;
+}
+.review-2{
+    width: 400px;
+    padding: 30px 10px 30px 30px;
 }
 .review-title{
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: 600;
     text-align: center; 
     margin-top: 60px;
+}
+.review-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.rating{
+    gap: 5px;
+}
+.rating-img{
+    margin-top: -10px;
+    width: 20px;
+    height: 20px;
+}
+.rating-text{
+    font-style: italic;
+    padding-bottom: 15px;
+    border-bottom: 1px rgba(0, 0, 0, 0.151) solid;
 }
 
 /* KLIEN */
@@ -178,4 +287,178 @@
     color: #0E296A;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 40px;
+}
+.border{
+    height: 3px;
+    width: 70rem;
+    background-color: black;
+}
+
+/* PENJELASAN */
+
+.pusat{
+    justify-content: center;
+}
+.pusat-text{
+    width: 500px;
+}
+.title-pusat{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 600;
+    line-height: 3rem;
+}
+.pusat-img-1{
+    width: 250px;
+    margin-top: -30px;
+}
+
+/* PELATIHAN */
+
+.accordion{
+    justify-content: center;
+    gap: 10px;
+}
+.accordion-item{
+    width: 400px;
+}
+.pelatihan-title{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 600;
+    text-align: center; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.pelatihan-button{
+    background-color: #0E296A;
+    color: white;
+    border: 0;
+    border-radius: 50px;
+}
+
+/*  */
+/*  */
+/* PUSAT PELATIHAN */
+/*  */
+/*  */
+
+.header-digital{
+    margin-top: 80px;
+    height: 30rem;
+    background-image: url('http://127.0.0.1:8000/img/header-digital.html');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.box-header-pusat{
+    width: 50rem;
+    background-color: white;
+    margin-left: 30rem;
+    opacity: 0.90;
+}
+.header-text-pusat{
+    word-spacing: 10px;
+    line-height: 4rem;
+    color: #0E296A;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 40px;
+}
+.border{
+    height: 3px;
+    width: 70rem;
+    background-color: black;
+}
+
+/* PENJELASAN */
+
+.pusat{
+    justify-content: center;
+}
+.pusat-text{
+    width: 500px;
+}
+.title-pusat{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 600;
+    line-height: 3rem;
+}
+.pusat-img-1{
+    width: 250px;
+    margin-top: -30px;
+}
+
+/* PELATIHAN */
+
+.accordion{
+    justify-content: center;
+    gap: 10px;
+}
+.accordion-item{
+    width: 400px;
+}
+.pelatihan-title{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 600;
+    text-align: center; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.pelatihan-button{
+    background-color: #0E296A;
+    color: white;
+    border: 0;
+    border-radius: 50px;
+}
+
+/*  */
+/*  */
+/* DIGITAL MARKETING AGENCY */
+/*  */
+/*  */
+
+/* HEADER */
+.header-form{
+    height: 70vh;
+    background: url("https://images.pexels.com/photos/518244/pexels-photo-518244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-header-form{
+    width: 30rem;
+    padding: 5px;
+    background-color: white;
+    margin-top: 14.5rem;
+}
+/* BOOK */
+.box-book{
+    background-color: white;
+    margin-top: -70px;
+    margin-bottom: 47rem;
+    border-radius: 10px;
+    height: 9rem;
+    width: 60rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.box-book1{
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.btn-kursus{
+    text-decoration: none;
+    background-color: white;
+    border: #0E296A solid 1px;
+    color: #0E296A;
+    height:40px;
+    margin-top: 31px;
+    border-radius: 5px;
+}
+.btn-kursus:hover{
+    background-color: #0E296A;
+    color: white;
+}
+/* FORM */
+.box-form{
+    border-radius: 10px;
+    padding: 20px 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
